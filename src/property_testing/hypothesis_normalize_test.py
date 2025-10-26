@@ -13,4 +13,6 @@ def format_text(input_str: str) -> str:
 def test_format_text(value):
     result = format_text(value)
     assert isinstance(result, str)
-    assert result == result.strip()  # Additional property
+    assert result == result.strip()
+
+# Hypothesis digs up wild test cases you'd never think to check for yourself.
