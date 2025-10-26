@@ -17,8 +17,6 @@ This repo is all about showing how to *do less but better* in Python. Each folde
 1. Install the goodies:
 
    ```bash
-   uv add typeguard hypothesis
-   # or
    uv sync
    ```
 
