@@ -1,5 +1,5 @@
 # Property-based test for a string normalization function using Hypothesis
-# Run with: uv run pytest hypothesis_normalize_test.py -v
+# Run with: uv run pytest hypothesis_normalize_test.py -v --hypothesis-show-statistics
 
 from hypothesis import given
 from hypothesis import strategies as st
