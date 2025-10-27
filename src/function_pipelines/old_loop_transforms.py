@@ -1,6 +1,5 @@
 # Old way using a loop or nested calls for transformations
 
-
 def process_text(input_val):
     val = input_val.strip()
     val = val.upper()

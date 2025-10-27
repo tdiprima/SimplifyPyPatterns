@@ -4,6 +4,7 @@ from functools import reduce
 
 
 def build_pipeline(*functions):
+    # Build a pipeline of functions
     return lambda input_val: reduce(lambda val, func: func(val), functions, input_val)
 
 
